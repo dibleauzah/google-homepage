@@ -1,5 +1,6 @@
 * {
-    
+    margin: 0;
+    margin-top: 10px;
 }
 h1 {
     display: none;
@@ -31,14 +32,13 @@ li {
     padding-right: 10px;
 }
 
-
 .button {
-    height: 40px;
     background: #4285F4;
     color: white;
     border-radius: 5px;
-    padding-right: 8px;
+    padding: 5px 10px 5px 0px;
 }
+
 
 #google-logo {
     background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
@@ -58,7 +58,7 @@ li {
     width: 561px;
     height: 44px;
     top: 290px;
-    margin: 0 calc(50% - 280px);
+    margin: 0 calc(50% - 473px);
     border-radius: 40px;
     border-color: #DFE1E5;
     border-style: solid;
