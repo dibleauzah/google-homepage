@@ -20,6 +20,10 @@ a {
     font-weight: 500;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 li {
     display: inline;
 }
@@ -36,6 +40,10 @@ li {
     margin-top: 10px;
 }
 
+.notbutton:hover {
+    text-decoration: underline;
+}
+
 .button {
     background: #4285F4;
     color: white;
@@ -43,6 +51,11 @@ li {
     padding: 5px 10px 5px 8px;
     margin-top: 15px;
     margin-right: 30px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    text-decoration: none;
 }
 
 
@@ -104,12 +117,10 @@ li {
 }
 
 .footer-text {
-    list-style-type: none;
-    text-decoration: none;
-    color: #3F3F3F;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
     font-size: 14px;
     padding-left: 27px;
-    
+}
+
+.footer-text:hover {
+    text-decoration: underline;
 }
