@@ -20,6 +20,10 @@ a {
     font-weight: 500;
 }
 
+li {
+    display: inline;
+}
+
 .nav:hover {
     text-decoration: underline;
 }
@@ -88,8 +92,24 @@ a {
 
 #footer {
     position: fixed;
-    background-color: blue;
+    background-color: #F2F2F2;
     width: 100%;
     bottom: 0;
     height: 40px;
+}
+
+.footer {
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.footer-text {
+    list-style-type: none;
+    text-decoration: none;
+    color: #3F3F3F;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 27px;
+    
 }
