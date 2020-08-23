@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    margin-top: 10px;
 }
 h1 {
     display: none;
@@ -25,18 +24,21 @@ a {
     text-decoration: underline;
 }
 
-li {
+.notbutton {
     display: inline-block;
     padding-left: 15px;
     padding-top: 10px;
     padding-right: 10px;
+    margin-top: 10px;
 }
 
 .button {
     background: #4285F4;
     color: white;
     border-radius: 5px;
-    padding: 5px 10px 5px 0px;
+    padding: 5px 10px 5px 8px;
+    margin-top: 15px;
+    margin-right: 30px;
 }
 
 
