@@ -103,6 +103,29 @@ li {
     left: 0px;
 }
 
+.bar-button {
+    position: absolute;
+    left: calc(50% - 272px/2);
+    top: 370px;
+}
+
+input {
+    border: none;
+    padding: 11px 8px;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    color: #5F6368;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    border: solid;
+    border-color: #9C9C9C;
+    border-width: 1px;
+    cursor: pointer;
+}
+
 #footer {
     position: fixed;
     background-color: #F2F2F2;
